@@ -1,4 +1,4 @@
-package prew1.prew6_arr;
+package Lesson1CW.prew1.prew6_arr;
 
 public class Main {
     public static void main(String[] args) {

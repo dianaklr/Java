@@ -1,4 +1,4 @@
-package prew1.prew1_1;
+package Lesson1CW.prew1.prew1_1;
 
 public class User {
     int id;

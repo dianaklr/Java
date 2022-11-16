@@ -1,4 +1,4 @@
-package prew1.prew5;
+package Lesson1CW.prew1.prew5;
 
 
 public class Main  {
