@@ -8,15 +8,18 @@ import java.util.ArrayList;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
+//@AllArgsConstructor
 public class User {
-    private int id;
-    private String name;
-    private String username;
+
     private String email;
     private ArrayList<String> address = new ArrayList<>();
     private String phone;
     private String website;
 
-
+    public User(String email, ArrayList<String> address, String phone, String website) {
+        this.email = email;
+        this.address = address;
+        this.phone = phone;
+        this.website = website;
+    }
 }
